@@ -13,7 +13,7 @@ class TechList extends Component{
     if(techs){
       this.setState({techs: JSON.parse(techs)});
     }
-  }
+  } 
 
   componentDidUpdate(_, prevState){
     if(prevState.techs !== this.state.techs){
